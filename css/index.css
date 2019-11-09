@@ -181,31 +181,33 @@ footer nav a {
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 30px;
+    padding-left: 15px;
+    
 }
 
 .strategy-box{
-    width: 45%;
+    width: 48%;
     padding-top: 25px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
 .work-box{
-    width: 45%;
+    width: 48%;
     padding-top: 25px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
 .places-box{
-    width: 45%;
+    width: 48%;
     padding-top: 25px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
 }
 
 .collaboration-box{
-    width: 45%;
+    width: 48%;
     padding-top: 25px;
     padding-bottom: 15px;
     border-bottom: 1px dashed black;
@@ -217,8 +219,56 @@ button{
     font-size: 14px;
     text-align: center;
     padding: 8px;
+    margin-bottom: 8px;
     border: 2px solid black;
     border-radius: 10px;
     width: 30%;
 
 }
+
+.bottom-content-about{
+    display: flex;
+    flex-direction: column;
+    margin: 25px 1% 20px;
+    justify-content: space-around;
+
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    font-size: 14px;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    font-size: 18px;
+    background-color: #45a049;
+  }
+  
+  .header-contact{
+      padding-bottom: 20px;
+
+  }
+  .container-contact {
+      width: 800px;
+      margin: 0 auto;
+      border-radius: 5px;
+      background-color: #f2f2f2;
+      padding: 20px;
+  }
+  
