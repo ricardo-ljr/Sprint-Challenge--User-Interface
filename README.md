@@ -60,7 +60,6 @@ Follow these steps for completing your project.
 - [ ] Your project manager will count the project as complete by merging the branch back into master.
  
 
-
 ## Minimum Viable Product
 
 Your finished project must include all of the following requirements:
